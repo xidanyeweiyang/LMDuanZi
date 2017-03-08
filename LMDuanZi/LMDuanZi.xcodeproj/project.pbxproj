@@ -1,0 +1,1394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A9676EEF313B169E1AB861 /* libPods-LMDuanZi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C033DD6A9FF0405FFC3FA3E5 /* libPods-LMDuanZi.a */; };
+		8A1C03411E6FD8FB00ECF513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C03401E6FD8FB00ECF513 /* main.m */; };
+		8A1C03441E6FD8FB00ECF513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C03431E6FD8FB00ECF513 /* AppDelegate.m */; };
+		8A1C034C1E6FD8FB00ECF513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C034B1E6FD8FB00ECF513 /* Assets.xcassets */; };
+		8A1C034F1E6FD8FB00ECF513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C034D1E6FD8FB00ECF513 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070776232F89E98D7265CCA0 /* Pods-LMDuanZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMDuanZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMDuanZi/Pods-LMDuanZi.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1C033C1E6FD8FB00ECF513 /* LMDuanZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMDuanZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1C03401E6FD8FB00ECF513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A1C03421E6FD8FB00ECF513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A1C03431E6FD8FB00ECF513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A1C034B1E6FD8FB00ECF513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1C034E1E6FD8FB00ECF513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A1C03501E6FD8FB00ECF513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2620640C6D10DDCD2C74B5 /* Pods-LMDuanZi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMDuanZi.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMDuanZi/Pods-LMDuanZi.release.xcconfig"; sourceTree = "<group>"; };
+		C033DD6A9FF0405FFC3FA3E5 /* libPods-LMDuanZi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMDuanZi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1C03391E6FD8FB00ECF513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A9676EEF313B169E1AB861 /* libPods-LMDuanZi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4D9BE9D895505BAE5331EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C033DD6A9FF0405FFC3FA3E5 /* libPods-LMDuanZi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1C03331E6FD8FB00ECF513 = {
+			isa = PBXGroup;
+			children = (
+				8A1C033E1E6FD8FB00ECF513 /* LMDuanZi */,
+				8A1C033D1E6FD8FB00ECF513 /* Products */,
+				E47592E2359D971BDDE73C45 /* Pods */,
+				0B4D9BE9D895505BAE5331EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1C033D1E6FD8FB00ECF513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C033C1E6FD8FB00ECF513 /* LMDuanZi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1C033E1E6FD8FB00ECF513 /* LMDuanZi */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03571E6FDF5000ECF513 /* Base */,
+				8A1C035E1E6FDF8500ECF513 /* Other */,
+				8A1C03561E6FDF4400ECF513 /* Application */,
+				8A1C035C1E6FDF6E00ECF513 /* Main */,
+				8A1C03581E6FDF5900ECF513 /* Check */,
+				8A1C03591E6FDF6400ECF513 /* Discover */,
+				8A1C035A1E6FDF6400ECF513 /* Home */,
+				8A1C03601E6FDF8500ECF513 /* Publish */,
+				8A1C035F1E6FDF8500ECF513 /* PersonalCenter */,
+				8A1C035D1E6FDF8500ECF513 /* Message */,
+				8A1C035B1E6FDF6E00ECF513 /* Login */,
+				8A1C03421E6FD8FB00ECF513 /* AppDelegate.h */,
+				8A1C03431E6FD8FB00ECF513 /* AppDelegate.m */,
+				8A1C033F1E6FD8FB00ECF513 /* Supporting Files */,
+			);
+			path = LMDuanZi;
+			sourceTree = "<group>";
+		};
+		8A1C033F1E6FD8FB00ECF513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C034B1E6FD8FB00ECF513 /* Assets.xcassets */,
+				8A1C034D1E6FD8FB00ECF513 /* LaunchScreen.storyboard */,
+				8A1C03501E6FD8FB00ECF513 /* Info.plist */,
+				8A1C03401E6FD8FB00ECF513 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A1C03561E6FDF4400ECF513 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C036A1E6FE57600ECF513 /* Controller */,
+				8A1C036B1E6FE57600ECF513 /* Model */,
+				8A1C036C1E6FE57600ECF513 /* Request */,
+				8A1C036D1E6FE57600ECF513 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8A1C03571E6FDF5000ECF513 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03611E6FE50000ECF513 /* Controller */,
+				8A1C03621E6FE50000ECF513 /* Model */,
+				8A1C03631E6FE50000ECF513 /* Request */,
+				8A1C03641E6FE50000ECF513 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8A1C03581E6FDF5900ECF513 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03721E6FE5A600ECF513 /* Controller */,
+				8A1C03731E6FE5A600ECF513 /* Model */,
+				8A1C03741E6FE5A600ECF513 /* Request */,
+				8A1C03751E6FE5A600ECF513 /* View */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		8A1C03591E6FDF6400ECF513 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03761E6FE68900ECF513 /* Hot */,
+				8A1C037B1E6FE68900ECF513 /* Main */,
+				8A1C03801E6FE68900ECF513 /* NearBy */,
+				8A1C03851E6FE68900ECF513 /* Search */,
+				8A1C038A1E6FE68900ECF513 /* Subscribe */,
+				8A1C038F1E6FE68900ECF513 /* Topic */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		8A1C035A1E6FDF6400ECF513 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03941E6FE6F400ECF513 /* Attention */,
+				8A1C03991E6FE6F400ECF513 /* Detail */,
+				8A1C039E1E6FE6F400ECF513 /* Main */,
+				8A1C03A31E6FE6F400ECF513 /* Report */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8A1C035B1E6FDF6E00ECF513 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8A1C035C1E6FDF6E00ECF513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C036E1E6FE58A00ECF513 /* Controller */,
+				8A1C036F1E6FE58A00ECF513 /* Model */,
+				8A1C03701E6FE58A00ECF513 /* Request */,
+				8A1C03711E6FE58A00ECF513 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A1C035D1E6FDF8500ECF513 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03BC1E6FE7A400ECF513 /* Black */,
+				8A1C03C11E6FE7A400ECF513 /* Coversation */,
+				8A1C03C61E6FE7A400ECF513 /* FansAndAttension */,
+				8A1C03CB1E6FE7A400ECF513 /* Main */,
+				8A1C03D01E6FE7A400ECF513 /* SystemMessage */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8A1C035E1E6FDF8500ECF513 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03651E6FE54E00ECF513 /* Category */,
+				8A1C03661E6FE54E00ECF513 /* Custom */,
+				8A1C03671E6FE54E00ECF513 /* Resource */,
+				8A1C03681E6FE54E00ECF513 /* Tool */,
+				8A1C03691E6FE54E00ECF513 /* Vendor */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8A1C035F1E6FDF8500ECF513 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03B21E6FE74D00ECF513 /* Main */,
+				8A1C03B71E6FE74D00ECF513 /* UserInfo */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		8A1C03601E6FDF8500ECF513 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03A81E6FE71900ECF513 /* Main */,
+				8A1C03AD1E6FE71900ECF513 /* Select */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		8A1C03611E6FE50000ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03621E6FE50000ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03631E6FE50000ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03641E6FE50000ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03651E6FE54E00ECF513 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8A1C03661E6FE54E00ECF513 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8A1C03671E6FE54E00ECF513 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8A1C03681E6FE54E00ECF513 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8A1C03691E6FE54E00ECF513 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		8A1C036A1E6FE57600ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C036B1E6FE57600ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C036C1E6FE57600ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C036D1E6FE57600ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C036E1E6FE58A00ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C036F1E6FE58A00ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03701E6FE58A00ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03711E6FE58A00ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03721E6FE5A600ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03731E6FE5A600ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03741E6FE5A600ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03751E6FE5A600ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03761E6FE68900ECF513 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03771E6FE68900ECF513 /* Controller */,
+				8A1C03781E6FE68900ECF513 /* Model */,
+				8A1C03791E6FE68900ECF513 /* Request */,
+				8A1C037A1E6FE68900ECF513 /* View */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		8A1C03771E6FE68900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03781E6FE68900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03791E6FE68900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C037A1E6FE68900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C037B1E6FE68900ECF513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C037C1E6FE68900ECF513 /* Controller */,
+				8A1C037D1E6FE68900ECF513 /* Model */,
+				8A1C037E1E6FE68900ECF513 /* Request */,
+				8A1C037F1E6FE68900ECF513 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A1C037C1E6FE68900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C037D1E6FE68900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C037E1E6FE68900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C037F1E6FE68900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03801E6FE68900ECF513 /* NearBy */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03811E6FE68900ECF513 /* Controller */,
+				8A1C03821E6FE68900ECF513 /* Model */,
+				8A1C03831E6FE68900ECF513 /* Request */,
+				8A1C03841E6FE68900ECF513 /* View */,
+			);
+			path = NearBy;
+			sourceTree = "<group>";
+		};
+		8A1C03811E6FE68900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03821E6FE68900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03831E6FE68900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03841E6FE68900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03851E6FE68900ECF513 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03861E6FE68900ECF513 /* Controller */,
+				8A1C03871E6FE68900ECF513 /* Model */,
+				8A1C03881E6FE68900ECF513 /* Request */,
+				8A1C03891E6FE68900ECF513 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8A1C03861E6FE68900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03871E6FE68900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03881E6FE68900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03891E6FE68900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C038A1E6FE68900ECF513 /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C038B1E6FE68900ECF513 /* Controller */,
+				8A1C038C1E6FE68900ECF513 /* Model */,
+				8A1C038D1E6FE68900ECF513 /* Request */,
+				8A1C038E1E6FE68900ECF513 /* View */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		8A1C038B1E6FE68900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C038C1E6FE68900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C038D1E6FE68900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C038E1E6FE68900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C038F1E6FE68900ECF513 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03901E6FE68900ECF513 /* Controller */,
+				8A1C03911E6FE68900ECF513 /* Model */,
+				8A1C03921E6FE68900ECF513 /* Request */,
+				8A1C03931E6FE68900ECF513 /* View */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		8A1C03901E6FE68900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03911E6FE68900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03921E6FE68900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03931E6FE68900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03941E6FE6F400ECF513 /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03951E6FE6F400ECF513 /* Controller */,
+				8A1C03961E6FE6F400ECF513 /* Model */,
+				8A1C03971E6FE6F400ECF513 /* Request */,
+				8A1C03981E6FE6F400ECF513 /* View */,
+			);
+			path = Attention;
+			sourceTree = "<group>";
+		};
+		8A1C03951E6FE6F400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03961E6FE6F400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03971E6FE6F400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03981E6FE6F400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03991E6FE6F400ECF513 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C039A1E6FE6F400ECF513 /* Controller */,
+				8A1C039B1E6FE6F400ECF513 /* Model */,
+				8A1C039C1E6FE6F400ECF513 /* Request */,
+				8A1C039D1E6FE6F400ECF513 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8A1C039A1E6FE6F400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C039B1E6FE6F400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C039C1E6FE6F400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C039D1E6FE6F400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C039E1E6FE6F400ECF513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C039F1E6FE6F400ECF513 /* Controller */,
+				8A1C03A01E6FE6F400ECF513 /* Model */,
+				8A1C03A11E6FE6F400ECF513 /* Request */,
+				8A1C03A21E6FE6F400ECF513 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A1C039F1E6FE6F400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03A01E6FE6F400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03A11E6FE6F400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03A21E6FE6F400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03A31E6FE6F400ECF513 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03A41E6FE6F400ECF513 /* Controller */,
+				8A1C03A51E6FE6F400ECF513 /* Model */,
+				8A1C03A61E6FE6F400ECF513 /* Request */,
+				8A1C03A71E6FE6F400ECF513 /* View */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		8A1C03A41E6FE6F400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03A51E6FE6F400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03A61E6FE6F400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03A71E6FE6F400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03A81E6FE71900ECF513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03A91E6FE71900ECF513 /* Controller */,
+				8A1C03AA1E6FE71900ECF513 /* Model */,
+				8A1C03AB1E6FE71900ECF513 /* Request */,
+				8A1C03AC1E6FE71900ECF513 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A1C03A91E6FE71900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03AA1E6FE71900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03AB1E6FE71900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03AC1E6FE71900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03AD1E6FE71900ECF513 /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03AE1E6FE71900ECF513 /* Controller */,
+				8A1C03AF1E6FE71900ECF513 /* Model */,
+				8A1C03B01E6FE71900ECF513 /* Request */,
+				8A1C03B11E6FE71900ECF513 /* View */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		8A1C03AE1E6FE71900ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03AF1E6FE71900ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03B01E6FE71900ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03B11E6FE71900ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03B21E6FE74D00ECF513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03B31E6FE74D00ECF513 /* Controller */,
+				8A1C03B41E6FE74D00ECF513 /* Model */,
+				8A1C03B51E6FE74D00ECF513 /* Request */,
+				8A1C03B61E6FE74D00ECF513 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A1C03B31E6FE74D00ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03B41E6FE74D00ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03B51E6FE74D00ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03B61E6FE74D00ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03B71E6FE74D00ECF513 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03B81E6FE74D00ECF513 /* Controller */,
+				8A1C03B91E6FE74D00ECF513 /* Model */,
+				8A1C03BA1E6FE74D00ECF513 /* Request */,
+				8A1C03BB1E6FE74D00ECF513 /* View */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		8A1C03B81E6FE74D00ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03B91E6FE74D00ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03BA1E6FE74D00ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03BB1E6FE74D00ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03BC1E6FE7A400ECF513 /* Black */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03BD1E6FE7A400ECF513 /* Controller */,
+				8A1C03BE1E6FE7A400ECF513 /* Model */,
+				8A1C03BF1E6FE7A400ECF513 /* Request */,
+				8A1C03C01E6FE7A400ECF513 /* View */,
+			);
+			path = Black;
+			sourceTree = "<group>";
+		};
+		8A1C03BD1E6FE7A400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03BE1E6FE7A400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03BF1E6FE7A400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03C01E6FE7A400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03C11E6FE7A400ECF513 /* Coversation */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03C21E6FE7A400ECF513 /* Controller */,
+				8A1C03C31E6FE7A400ECF513 /* Model */,
+				8A1C03C41E6FE7A400ECF513 /* Request */,
+				8A1C03C51E6FE7A400ECF513 /* View */,
+			);
+			path = Coversation;
+			sourceTree = "<group>";
+		};
+		8A1C03C21E6FE7A400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03C31E6FE7A400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03C41E6FE7A400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03C51E6FE7A400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03C61E6FE7A400ECF513 /* FansAndAttension */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03C71E6FE7A400ECF513 /* Controller */,
+				8A1C03C81E6FE7A400ECF513 /* Model */,
+				8A1C03C91E6FE7A400ECF513 /* Request */,
+				8A1C03CA1E6FE7A400ECF513 /* View */,
+			);
+			path = FansAndAttension;
+			sourceTree = "<group>";
+		};
+		8A1C03C71E6FE7A400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03C81E6FE7A400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03C91E6FE7A400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03CA1E6FE7A400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03CB1E6FE7A400ECF513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03CC1E6FE7A400ECF513 /* Controller */,
+				8A1C03CD1E6FE7A400ECF513 /* Model */,
+				8A1C03CE1E6FE7A400ECF513 /* Request */,
+				8A1C03CF1E6FE7A400ECF513 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A1C03CC1E6FE7A400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03CD1E6FE7A400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03CE1E6FE7A400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03CF1E6FE7A400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1C03D01E6FE7A400ECF513 /* SystemMessage */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C03D11E6FE7A400ECF513 /* Controller */,
+				8A1C03D21E6FE7A400ECF513 /* Model */,
+				8A1C03D31E6FE7A400ECF513 /* Request */,
+				8A1C03D41E6FE7A400ECF513 /* View */,
+			);
+			path = SystemMessage;
+			sourceTree = "<group>";
+		};
+		8A1C03D11E6FE7A400ECF513 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A1C03D21E6FE7A400ECF513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1C03D31E6FE7A400ECF513 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8A1C03D41E6FE7A400ECF513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E47592E2359D971BDDE73C45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				070776232F89E98D7265CCA0 /* Pods-LMDuanZi.debug.xcconfig */,
+				9C2620640C6D10DDCD2C74B5 /* Pods-LMDuanZi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1C033B1E6FD8FB00ECF513 /* LMDuanZi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1C03531E6FD8FB00ECF513 /* Build configuration list for PBXNativeTarget "LMDuanZi" */;
+			buildPhases = (
+				55583BF1B7AF1984584EBBFB /* [CP] Check Pods Manifest.lock */,
+				8A1C03381E6FD8FB00ECF513 /* Sources */,
+				8A1C03391E6FD8FB00ECF513 /* Frameworks */,
+				8A1C033A1E6FD8FB00ECF513 /* Resources */,
+				4BCA1EC0B7EEBC5AEC72ECFA /* [CP] Embed Pods Frameworks */,
+				F634B93F0E50B7E84EC90392 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMDuanZi;
+			productName = LMDuanZi;
+			productReference = 8A1C033C1E6FD8FB00ECF513 /* LMDuanZi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1C03341E6FD8FB00ECF513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LM;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘明";
+				TargetAttributes = {
+					8A1C033B1E6FD8FB00ECF513 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PPW9FUQJ5U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A1C03371E6FD8FB00ECF513 /* Build configuration list for PBXProject "LMDuanZi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1C03331E6FD8FB00ECF513;
+			productRefGroup = 8A1C033D1E6FD8FB00ECF513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1C033B1E6FD8FB00ECF513 /* LMDuanZi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1C033A1E6FD8FB00ECF513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C034F1E6FD8FB00ECF513 /* LaunchScreen.storyboard in Resources */,
+				8A1C034C1E6FD8FB00ECF513 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BCA1EC0B7EEBC5AEC72ECFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMDuanZi/Pods-LMDuanZi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55583BF1B7AF1984584EBBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F634B93F0E50B7E84EC90392 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMDuanZi/Pods-LMDuanZi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1C03381E6FD8FB00ECF513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C03441E6FD8FB00ECF513 /* AppDelegate.m in Sources */,
+				8A1C03411E6FD8FB00ECF513 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A1C034D1E6FD8FB00ECF513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A1C034E1E6FD8FB00ECF513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A1C03511E6FD8FB00ECF513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A1C03521E6FD8FB00ECF513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1C03541E6FD8FB00ECF513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070776232F89E98D7265CCA0 /* Pods-LMDuanZi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PPW9FUQJ5U;
+				INFOPLIST_FILE = LMDuanZi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LM.app.LMDuanZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A1C03551E6FD8FB00ECF513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2620640C6D10DDCD2C74B5 /* Pods-LMDuanZi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PPW9FUQJ5U;
+				INFOPLIST_FILE = LMDuanZi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LM.app.LMDuanZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1C03371E6FD8FB00ECF513 /* Build configuration list for PBXProject "LMDuanZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C03511E6FD8FB00ECF513 /* Debug */,
+				8A1C03521E6FD8FB00ECF513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1C03531E6FD8FB00ECF513 /* Build configuration list for PBXNativeTarget "LMDuanZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C03541E6FD8FB00ECF513 /* Debug */,
+				8A1C03551E6FD8FB00ECF513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1C03341E6FD8FB00ECF513 /* Project object */;
+}
