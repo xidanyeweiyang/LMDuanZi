@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "LMMainNavigationController.h"
+#import "LMMainTabbarViewController.h"
+#import "LMMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    LMMainViewController *mainVC = [LMMainViewController new];
+
+    LMMainNavigationController *nav = [[LMMainNavigationController alloc] initWithRootViewController:mainVC];
+//    LMMainTabbarViewController *tabbar = [[LMMainTabbarViewController alloc] init];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

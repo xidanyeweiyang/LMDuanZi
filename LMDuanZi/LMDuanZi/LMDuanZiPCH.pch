@@ -1,0 +1,26 @@
+//
+//  LMDuanZiPCH.pch
+//  LMDuanZi
+//
+//  Created by 刘明 on 17/3/8.
+//  Copyright © 2017年 刘明. All rights reserved.
+//
+
+//pod 'Masonry'
+//pod 'SDWebImage'
+//pod 'ReactiveCocoa','2.5'
+//pod 'MJExtension'
+//pod 'MJRefresh'
+//pod 'UMengSocialCOM'
+//pod 'YYText'
+//pod 'YYWebImage'
+//pod 'MBProgressHUD'
+
+
+#ifndef LMDuanZiPCH_pch
+#define LMDuanZiPCH_pch
+
+#import "Macros.h"
+
+
+#endif /* LMDuanZiPCH_pch */
