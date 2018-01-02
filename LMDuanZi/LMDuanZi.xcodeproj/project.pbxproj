@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000E21DF1FFB420100A3C49A /* LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E21DE1FFB420100A3C49A /* LM.m */; };
+		000E21E31FFB514400A3C49A /* LMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E21E21FFB514400A3C49A /* LMView.m */; };
 		09A9676EEF313B169E1AB861 /* libPods-LMDuanZi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C033DD6A9FF0405FFC3FA3E5 /* libPods-LMDuanZi.a */; };
 		8A1751F21E7683DE001DABA8 /* UINavigationItem+LMNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1751F11E7683DE001DABA8 /* UINavigationItem+LMNavigationItem.m */; };
 		8A1751F51E769709001DABA8 /* UINavigationBar+LMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1751F41E769709001DABA8 /* UINavigationBar+LMNavigationBar.m */; };
@@ -23,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000E21DD1FFB420100A3C49A /* LM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LM.h; sourceTree = "<group>"; };
+		000E21DE1FFB420100A3C49A /* LM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LM.m; sourceTree = "<group>"; };
+		000E21E11FFB514400A3C49A /* LMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMView.h; sourceTree = "<group>"; };
+		000E21E21FFB514400A3C49A /* LMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMView.m; sourceTree = "<group>"; };
 		070776232F89E98D7265CCA0 /* Pods-LMDuanZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMDuanZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMDuanZi/Pods-LMDuanZi.debug.xcconfig"; sourceTree = "<group>"; };
 		8A1751F01E7683DE001DABA8 /* UINavigationItem+LMNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+LMNavigationItem.h"; sourceTree = "<group>"; };
 		8A1751F11E7683DE001DABA8 /* UINavigationItem+LMNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+LMNavigationItem.m"; sourceTree = "<group>"; };
@@ -72,6 +78,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000E21DC1FFB41EA00A3C49A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				000E21E01FFB425F00A3C49A /* New Group */,
+				000E21DD1FFB420100A3C49A /* LM.h */,
+				000E21DE1FFB420100A3C49A /* LM.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		000E21E01FFB425F00A3C49A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				000E21E11FFB514400A3C49A /* LMView.h */,
+				000E21E21FFB514400A3C49A /* LMView.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		0B4D9BE9D895505BAE5331EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +234,7 @@
 		8A1C035E1E6FDF8500ECF513 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				000E21DC1FFB41EA00A3C49A /* Lib */,
 				8A1C03651E6FE54E00ECF513 /* Category */,
 				8A1C03661E6FE54E00ECF513 /* Custom */,
 				8A1C03671E6FE54E00ECF513 /* Resource */,
@@ -1388,8 +1414,10 @@
 				8AC5A6DB1E725D8500A9BA16 /* LMMainTableViewController.m in Sources */,
 				8A1C03411E6FD8FB00ECF513 /* main.m in Sources */,
 				8AC5A6D81E72511F00A9BA16 /* UIButton+LMButton.m in Sources */,
+				000E21DF1FFB420100A3C49A /* LM.m in Sources */,
 				8A1C03D71E6FF51300ECF513 /* LMMainTabbarViewController.m in Sources */,
 				8AC5A6831E7129AA00A9BA16 /* UIBarButtonItem+LMBarButtonItem.m in Sources */,
+				000E21E31FFB514400A3C49A /* LMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
